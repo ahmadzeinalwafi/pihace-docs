@@ -6,19 +6,47 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'pihace',
+			logo: {
+				src: '/public/favicon.svg',
+				alt: 'pihace logo',
+			},
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/ahmadzeinalwafi/pihace' },
+				{ icon: 'seti:python', label: 'PyPi', href: 'https://pypi.org/project/pihace/' }
+			],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Getting Started',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Overview', slug: 'getting-started/overview' },
+						{ label: 'Instalation', slug: 'getting-started/instalation' },
+						{ label: 'Core Concepts', slug: 'getting-started/core-concepts' },
+						{ label: 'Quick Start', slug: 'getting-started/quick-start' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Plugins',
+					items: [
+						{ label: 'Overview', slug: 'plugins/overview' },
+						{ label: 'MySQL', slug: 'plugins/mysql' },
+						{ label: 'MongoDB', slug: 'plugins/mongodb' },
+						{ label: 'InfluxDB', slug: 'plugins/influxdb' },
+						{ label: 'Custom Plugin', slug: 'plugins/custom-plugin' },
+					],
+				},
+				{
+					label: 'Providers',
+					items: [
+						{ label: 'Overview', slug: 'providers/overview' },
+						{ label: 'Web Service', slug: 'providers/webservice' },
+					],
+				},
+				{
+					label: 'Examples',
+					items: [
+						{ label: 'Multiple Services Basic', slug: 'examples/multiple-services-basic' },
+					],
 				},
 			],
 		}),

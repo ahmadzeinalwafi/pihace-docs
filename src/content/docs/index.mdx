@@ -1,36 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: pihace
+description: Get started building your healtcheck system
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: pihace is a healthcheck system that allows you to monitor the status of your services and applications. It provides a simple and effective way to ensure that your systems are running smoothly and to quickly identify any issues that may arise.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/logo.png
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Getting Started
+      link: /getting-started/overview
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Learn The Basics" icon="pencil">
+	Learn the basics and core concepts of pihace to implement your healthcheck system.
+
+	<LinkButton href="/getting-started/core-concepts"  variant="secondary">Core Concepts</LinkButton>
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Various Plugins" icon="add-document">
+		Various plugins are available to extend the functionality of pihace. You can use them to add new features, integrate with other tools, or customize the behavior of your healthcheck system.
+
+		<LinkButton href="/plugins/overview" variant="secondary">Explore Plugins</LinkButton>
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Multiple Providers" icon="setting">
+		Some providers are available to get the status of your services and applications. You can use them to monitor the status of your systems and to quickly identify any issues that may arise.
+
+		<LinkButton href="/providers/overview" variant="secondary">Explore Providers</LinkButton>
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="See The Example" icon="open-book">
+		See the example of pihace in action. You can use it to monitor the status of your services and applications, and to quickly identify any issues that may arise.
+
+		<LinkButton href="/examples/overview" variant="secondary">Explore Example</LinkButton>
 	</Card>
 </CardGrid>

@@ -1,54 +1,77 @@
-# Starlight Starter Kit: Basics
+# 📘 pihace Documentation Website
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Welcome to the official documentation site for **pihace (Python Integrated Health Check)** --- a modular, extensible, and developer-friendly health check library for Python systems and services.
 
+This website is built using [Astro Starlight](https://starlight.astro.build), a modern documentation framework for lightning-fast and beautiful docs.
+
+---
+
+## 🌐 Live Documentation
+
+📖 Access the documentation here: [pihace.raiharc.org](https://pihace.raiharc.org)
+
+---
+
+## 🚀 Getting Started Locally
+
+To run the documentation site locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-org/pihace-docs.git
+
+cd pihace-docs
 ```
-npm create astro@latest -- --template starlight
+2\. Install Dependencies
+```bash
+npm install
 ```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
+3\. Start the Dev Server
+```bash
+npm run dev
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   ├── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+Visit http://localhost:4321 in your browser to view the site locally.
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🛠 Tech Stack
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+- Astro
 
-Static assets, like favicons, can be placed in the `public/` directory.
+- Starlight
 
-## 🧞 Commands
+- Markdown + MDX
 
-All commands are run from the root of the project, from a terminal:
+## 🧩 Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+We welcome contributions to improve the docs! You can:
 
-## 👀 Want to learn more?
+- Fix typos or formatting
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- Improve explanations or examples
+
+- Add new usage guides or setup instructions
+
+## How to Contribute
+
+- Discuss the issue first on [Github Issue](https://github.com/ahmadzeinalwafi/pihace-docs/issues)
+
+- If the idea are acceptable, either we will working on of it or you can fork this repository according to the discussion
+
+- If you are contributing, create a new branch: git checkout -b improve-docs
+
+- Make your changes
+
+- Commit and push: git commit -m "Improve docs" then git push origin improve-docs
+
+- Create a Pull Request
+
+## 📄 License
+
+This documentation site is licensed under the [Apache-2.0 License](https://opensource.org/licenses/Apache-2.0
+).
+
+## 👤 Author
+
+Ahmad Zein Al Wafi
+
+Maintainer of [pihace](https://github.com/ahmadzeinalwafi/pihace)
