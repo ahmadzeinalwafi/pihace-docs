@@ -69,6 +69,7 @@ export default defineConfig({
 				{
 					label: 'Examples',
 					items: [
+						{ label: 'Overview', slug: 'examples/overview' },
 						{ label: 'Multiple Services Basic', slug: 'examples/multiple-services-basic' },
 					],
 				},
