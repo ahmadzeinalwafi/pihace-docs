@@ -63,7 +63,7 @@ export default defineConfig({
 					label: 'HealthCheck as a Config (HCaaC)',
 					items: [
 						{ label: 'Overview', slug: 'hcaac/overview' },
-						{ label: 'YML', slug: 'hcaac/yml' },
+						{ label: 'YML Guide', slug: 'hcaac/yml' },
 					],
 				},
 				{
