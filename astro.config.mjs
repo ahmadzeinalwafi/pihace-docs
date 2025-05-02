@@ -32,6 +32,7 @@ export default defineConfig({
 						{ label: 'MySQL', slug: 'plugins/mysql' },
 						{ label: 'MongoDB', slug: 'plugins/mongodb' },
 						{ label: 'InfluxDB', slug: 'plugins/influxdb' },
+						{ label: 'Elastic Search', slug: 'plugins/elasticsearch' },
 						{ label: 'Custom Plugin', slug: 'plugins/custom-plugin' },
 					],
 				},
@@ -40,6 +41,29 @@ export default defineConfig({
 					items: [
 						{ label: 'Overview', slug: 'providers/overview' },
 						{ label: 'Web Service', slug: 'providers/webservice' },
+						{ label: 'Prometheus', slug: 'providers/prometheus' },
+					],
+				},
+				{
+					label: 'Pusher',
+					items: [
+						{ label: 'Overview', slug: 'pusher/overview' },
+						{ label: 'Elastic Search', slug: 'pusher/elasticsearch' },
+						{ label: 'AMQP Messaging', slug: 'pusher/messaging' },
+					],
+				},
+				{
+					label: 'Storage',
+					items: [
+						{ label: 'Overview', slug: 'storage/overview' },
+						{ label: 'MongoDB', slug: 'storage/mongodb' },
+					],
+				},
+				{
+					label: 'HealthCheck as a Config (HCaaC)',
+					items: [
+						{ label: 'Overview', slug: 'hcaac/overview' },
+						{ label: 'YML', slug: 'hcaac/yml' },
 					],
 				},
 				{
